@@ -8,7 +8,7 @@ sections:
   path: content
   label: content
   create: all
-  match: "**/*"
+  match: "*.md"
 - type: directory
   path: content/blog
   label: blog
