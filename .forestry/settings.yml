@@ -11,9 +11,9 @@ sections:
   match: "*.md"
 - type: directory
   path: content
-  label: blog
+  label: posts
   create: all
-  match: blog/*.md
+  match: "**/*.md"
   exclude: content/*.md
 upload_dir: uploads
 public_path: "/uploads"
