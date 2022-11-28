@@ -13,7 +13,7 @@ sections:
   path: content
   label: posts
   create: all
-  match: "**/*.md"
+  match: blog/*.md
   exclude: content/*.md
 upload_dir: uploads
 public_path: "/uploads"
