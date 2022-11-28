@@ -11,10 +11,12 @@ sections:
   match: "*.md"
 - type: directory
   path: content
-  label: posts
+  label: Posts
   create: all
-  match: blog/*.md
+  match: blog/**/*.md
   exclude: content/*.md
+  templates:
+  - page
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
